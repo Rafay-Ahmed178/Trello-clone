@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .column{
+    /* border: 2px solid red; */
+    min-height: 300px;
+    min-width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 5px solid; */
+    border-radius: 20px;
+    font-size: 25px;
+  
+    
+
+  }
+  .column  :hover{
+    border-radius: 10px;
+    border-color: brown;
+
+  }
+ input{
+  width: 200px;
+  height: 30px;
+ }
